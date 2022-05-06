@@ -1,3 +1,10 @@
+/*
+Basic React Application with all built in hooks and 2 custom made hooks.
+Custom Made Hooks:
+1. useLocalStorage(): For persisiting value in local storage. Functionality wise same as useState.
+2. useUpdateLogger(): Printing value everytime when it gets updated.
+*/
+
 import React, {useState, useEffect, useReducer} from 'react';
 import './App.css';
 import useLocalStorage from './useLocalStorage'
@@ -50,3 +57,4 @@ function App() {
 }
 
 export default App;
+
